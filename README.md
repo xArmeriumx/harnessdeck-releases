@@ -1,8 +1,20 @@
-# HarnessDeck downloads
+<div align="center">
+
+<img src="assets/app-icon.png" width="88" alt="HarnessDeck app icon" />
+
+# HarnessDeck
+
+### Your ChatGPT subscription. Claude Code’s harness.
 
 Use Claude Code or Codex CLI with models you already connected to OpenCode, including your existing ChatGPT subscription connection.
 
 **[Download the macOS preview](https://github.com/xArmeriumx/harnessdeck-releases/releases/tag/v2.0.0-preview.1)**
+
+<img src="assets/launcher.png" width="960" alt="HarnessDeck running on macOS with Claude Code, a discovered GPT model, the sample project and a locally tested compatibility result" />
+
+</div>
+
+*Launch screen captured from the actual release application on macOS, using a sample project and a real local workflow result.*
 
 This repository provides public installers and release notes. Application source is maintained in a separate private repository. Downloads do not require repository access or a GitHub account.
 
@@ -26,6 +38,14 @@ This preview is **ad-hoc signed, not Apple-notarized**. Gatekeeper may require *
 The local bridge is included and starts automatically. Keep HarnessDeck open while the terminal session uses its managed bridge. Provider logins stay in OpenCode; project trust, tools, permissions and skills stay in the original harness.
 
 **Test workflow** uses an isolated temporary fixture and consumes the selected provider's allowance. It does not test against your project files. Compatibility results describe the tested combination, not every model or large-project workflow.
+
+## Inside the app
+
+The Runtime screen shows detected tools and the bundled bridge managed by HarnessDeck.
+
+<img src="assets/runtime.png" width="960" alt="HarnessDeck Runtime screen showing detected OpenCode, Node.js, Claude Code, Codex CLI and the managed local bridge" />
+
+*Runtime capture is from the packaged QA build of the same interface, using real native detection. Versions, model counts and compatibility results reflect the capture environment and can differ on your Mac.*
 
 ## Release assets
 
